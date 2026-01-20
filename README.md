@@ -34,7 +34,7 @@ Detailed diagrams are available in the [`diagrams/`](./diagrams) directory.
 | VLAN | Name        | Purpose                                  |
 |------|-------------|------------------------------------------|
 | 10   | Management  | Admin interfaces and jump host           |
-| 20   | Apps        | Application services (Nextcloud)         |
+| 20   | Services    | Application services (Nextcloud)         |
 | 30   | WLAN        | Trusted user devices                     |
 | 40   | Storage     | TrueNAS NFS & SMB traffic                |
 | 50   | Monitoring  | Zabbix and Wazuh                         |
@@ -108,7 +108,7 @@ Monitoring documentation is available in the [`monitoring/`](./monitoring) direc
 ### Break-Glass Access
 A documented break-glass procedure exists to restore access during outages or misconfigurations, prioritizing physical and console access over network-based recovery.
 
-See [`security/jump-host/break-glass-procedure.md`](./security/jump-host/break-glass-procedure.md).
+See [`security/break-glass-procedure.md`](./security/break-glass-procedure.md).
 
 ---
 
@@ -119,10 +119,4 @@ See [`security/jump-host/break-glass-procedure.md`](./security/jump-host/break-g
 - Monitoring and logging integration
 - Operational thinking (failure scenarios, recovery, auditability)
 - Clear technical documentation
-
----
-
-## Disclaimer
-This lab is for educational and demonstration purposes. While it follows enterprise-inspired design principles, configurations are adapted for a home lab environment.
-
 
