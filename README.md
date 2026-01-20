@@ -71,7 +71,6 @@ See [`network/firewall-rule-matrix.md`](./network/firewall-rule-matrix.md) for d
 
 Documentation:
 - [`security/jump-host/hardening-checklist.md`](./security/jump-host/hardening-checklist.md)
-- [`security/jump-host/threat-model.md`](./security/jump-host/threat-model.md)
 
 ---
 
@@ -125,4 +124,5 @@ See [`security/jump-host/break-glass-procedure.md`](./security/jump-host/break-g
 
 ## Disclaimer
 This lab is for educational and demonstration purposes. While it follows enterprise-inspired design principles, configurations are adapted for a home lab environment.
+
 
